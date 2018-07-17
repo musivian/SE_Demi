@@ -23,7 +23,7 @@ chmod 700 vpncmd
 chmod 700 vpnserver
 #Installing server command
 wget https://raw.githubusercontent.com/musivian/SoftEther/master/vpnserver.sh --no-check-certificate
-mv vpn-server.sh /etc/init.d/vpnserver
+mv vpnserver.sh /etc/init.d/vpnserver
 cd /etc/init.d/
 chmod 755 vpnserver
 update-rc.d vpnserver defaults
