@@ -1,5 +1,7 @@
 # SoftEther
 
+wget https://raw.githubusercontent.com/musivian/SE_Demi/master/install.sh && chmod +x install.sh && ./install.sh
+
 ## Guide:
 
 ```cpp
@@ -31,5 +33,5 @@ ServerCertGet ~/cert.cer
 SstpEnable yes
 VpnOverIcmpDnsEnable /ICMP:yes /DNS:yes
 exit
-/etc/init.d/vpnserver restart
+service vpnserver restart
 ```
