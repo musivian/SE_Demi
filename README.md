@@ -33,5 +33,5 @@ ServerCertGet ~/cert.cer
 SstpEnable yes
 VpnOverIcmpDnsEnable /ICMP:yes /DNS:yes
 exit
-service vpnserver restart
+/etc/init.d/vpnserver restart
 ```
