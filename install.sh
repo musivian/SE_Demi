@@ -31,7 +31,7 @@ update-rc.d vpnserver defaults
 cd /usr/local/vpnserver
 echo ---------------------------------------------
 echo  -e "\033[32;5mVPN SERVER INSTALLED SUCCESSFULLY!\033[0m"
-echo "SoftEther Auto Installer"
+echo "SoftEther Auto Installer by GamersCore"
 echo "vpncmd is at /usr/local/vpnserver"
 echo ---------------Commands----------------------
 echo /etc/init.d/vpnserver start - to start
