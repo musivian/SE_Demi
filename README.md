@@ -2,6 +2,10 @@
 
 wget https://raw.githubusercontent.com/musivian/SE_Demi/master/install.sh && chmod +x install.sh && ./install.sh
 
+# Updated
+
+wget https://raw.githubusercontent.com/musivian/SE_Demi/master/debian_8.sh && chmod +x debian_8.sh && ./debian_8.sh
+
 ## Guide:
 
 ```cpp
