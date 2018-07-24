@@ -26,6 +26,7 @@ wget https://raw.githubusercontent.com/musivian/SE_Demi/master/vpnserver.sh --no
 mv vpnserver.sh /etc/init.d/vpnserver
 cd /etc/init.d/
 chmod 755 vpnserver
+mkdir /var/lock/subsys
 update-rc.d vpnserver defaults
 /etc/init.d/vpnserver start
 cd /usr/local/vpnserver
