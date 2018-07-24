@@ -14,6 +14,7 @@ test -x $DAEMON || exit 0
 case "$1" in
 start)
 $DAEMON start
+mkdir -p /var/lock/subsys
 touch $LOCK
 ;;
 stop)
